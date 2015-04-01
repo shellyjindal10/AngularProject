@@ -14,6 +14,16 @@
 	        name:'yaminiYadav',
 			age:28,
 	        company:"Google",
+		},
+		{
+	        name:'shellyjindal',
+			age:32,
+	        company:"apple",
+		},
+		{
+	        name:'jindahhsh',
+			age:90,
+	        company:"facebook",
 		}
 	];
 })();
