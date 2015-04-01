@@ -12,7 +12,7 @@
 		},
 		{
 	        name:'yaminiYadav',
-			age:30,
+			age:28,
 	        company:"Google",
 		}
 	];
