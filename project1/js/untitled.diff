@@ -1,0 +1,102 @@
+Index: PROD.properties
+===================================================================
+--- PROD.properties	(revision 12092)
++++ PROD.properties	(working copy)
+@@ -276,8 +276,10 @@
+ IPAWeb.Resources.IsAkamaiEnabled=true
+ IPAWeb.Resources.LocalBaseURL=
+ IPAWeb.Resources.LocalSecureBaseURL=
+-IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
+-IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com
++IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com
+
+ # ---------------------------------------------------------------------------------------
+ #   CAPTCHA for AccountLookupPage and BillingPage
+Index: PROD_NC1.properties
+===================================================================
+--- PROD_NC1.properties	(revision 12092)
++++ PROD_NC1.properties	(working copy)
+@@ -276,8 +276,10 @@
+ IPAWeb.Resources.IsAkamaiEnabled=true
+ IPAWeb.Resources.LocalBaseURL=
+ IPAWeb.Resources.LocalSecureBaseURL=
+-IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
+-IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com
++IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com
+
+ # ---------------------------------------------------------------------------------------
+ #   CAPTCHA for AccountLookupPage and BillingPage
+Index: PROD_NC2.properties
+===================================================================
+--- PROD_NC2.properties	(revision 12092)
++++ PROD_NC2.properties	(working copy)
+@@ -276,8 +276,10 @@
+ IPAWeb.Resources.IsAkamaiEnabled=true
+ IPAWeb.Resources.LocalBaseURL=
+ IPAWeb.Resources.LocalSecureBaseURL=
+-IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
+-IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com
++IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com
+
+ # ---------------------------------------------------------------------------------------
+ #   CAPTCHA for AccountLookupPage and BillingPage
+Index: PROD_NC3.properties
+===================================================================
+--- PROD_NC3.properties	(revision 12092)
++++ PROD_NC3.properties	(working copy)
+@@ -276,8 +276,10 @@
+ IPAWeb.Resources.IsAkamaiEnabled=true
+ IPAWeb.Resources.LocalBaseURL=
+ IPAWeb.Resources.LocalSecureBaseURL=
+-IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
+-IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com
++IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com
+
+ # ---------------------------------------------------------------------------------------
+ #   CAPTCHA for AccountLookupPage and BillingPage
+Index: PROD_NWK2.properties
+===================================================================
+--- PROD_NWK2.properties	(revision 12092)
++++ PROD_NWK2.properties	(working copy)
+@@ -276,8 +276,10 @@
+ IPAWeb.Resources.IsAkamaiEnabled=true
+ IPAWeb.Resources.LocalBaseURL=
+ IPAWeb.Resources.LocalSecureBaseURL=
+-IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
+-IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com
++IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com
+
+ # ---------------------------------------------------------------------------------------
+ #   CAPTCHA for AccountLookupPage and BillingPage
+Index: PROD_NWK3.properties
+===================================================================
+--- PROD_NWK3.properties	(revision 12092)
++++ PROD_NWK3.properties	(working copy)
+@@ -276,8 +276,10 @@
+ IPAWeb.Resources.IsAkamaiEnabled=true
+ IPAWeb.Resources.LocalBaseURL=
+ IPAWeb.Resources.LocalSecureBaseURL=
+-IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
+-IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com.edgekey.net
++#IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com.edgekey.net
++IPAWeb.Resources.AkamaiBaseURL=https://static.ips.apple.com
++IPAWeb.Resources.AkamaiSecureBaseURL=https://static.ips.apple.com
+
+ # ---------------------------------------------------------------------------------------
+ #   CAPTCHA for AccountLookupPage and BillingPage

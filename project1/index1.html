@@ -6,11 +6,13 @@
 </head>
 <body>
 <div ng-controller="MultipleStoreController as store" >
-	<div ng-repeat="product in store.product">
-			  <h3>{{product.name}}</h3>
+	<div ng-repeat="product in store.product | limitTo:3">
+			  <h3>{{product.name | uppercase}}</h3>
 			  <h3>{{product.age}}</h3>
 			  <h3>{{product.company}}</h3>
+			  <img ng-src="{{product.images[0].full}}"/>
 	 </div>
+	 <img ng-src="{{store.product.images[0].full}}"/>
 </div>
 </body>
 	<script type="text/javascript" src="lib/angular.min.js"></script>

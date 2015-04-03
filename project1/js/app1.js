@@ -6,22 +6,27 @@
 
 	var gems = [
 	     {
-			name:'sudipGautam',
+			name:'sudip Gautam',
 			age:30,
 	        company:"Yahoo",
+	        images:[
+		        {
+		        	full:'img/watch.jpg'
+		        }
+	        ]
 		},
 		{
-	        name:'yaminiYadav',
+	        name:'yamini Yadav',
 			age:28,
 	        company:"Google",
 		},
 		{
-	        name:'shellyjindal',
+	        name:'shelly jindal',
 			age:32,
 	        company:"apple",
 		},
 		{
-	        name:'jindahhsh',
+	        name:'abc xyz',
 			age:90,
 	        company:"facebook",
 		}
