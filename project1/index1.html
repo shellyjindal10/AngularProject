@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html ng-app="store">
+<!--<html ng-app="store">
 <head>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.4-dist/css/bootstrap.min.css" />
 </head>
@@ -14,7 +14,21 @@
 	 </div>
 	 <img ng-src="{{store.product.images[0].full}}"/>
 </div>
+</body>-->
+
+
+<html ng-app="page"> 
+<head lang="en"> 
+    <title>My HTML 5 Page</title> 
+</head> 
+<body>
+<div ng-controller="PageController as page" >
+    <h1>{{page.product.message}}</h1> 
+	<input type="text" ng-model="hello" />
+</div>
 </body>
+
+</html>
 	<script type="text/javascript" src="lib/angular.min.js"></script>
 	<script type="text/javascript" src="js/app1.js"></script>
 </html>
