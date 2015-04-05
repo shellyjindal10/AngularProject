@@ -1,3 +1,16 @@
+$background-color :#FFE4C4;
+$max-attr:100%;
+$auto:auto;
+
 body{
-	background:black;
+	
+}
+
+video#bgvid{
+	min-width:$max-attr;
+	min-height:$max-attr;
+	width:$auto;
+	height:$auto;
+	background:url(../image/splitmoneyImage.jpg) no-repeat;
+	background-size:cover;
 }

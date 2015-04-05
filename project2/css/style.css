@@ -1,4 +1,9 @@
-body {
-  background: black; }
+video#bgvid {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background: url(../image/splitmoneyImage.jpg) no-repeat;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
