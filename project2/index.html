@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 
-<html ng-app="store">
+<html>
 <head>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.4-dist/css/bootstrap.min.css" />
 </head>
 <body>
-<div ng-controller="MultipleStoreController as store" >
-	<div ng-repeat="product in store.product | limitTo:3">
-			  <h3>{{product.name | uppercase}}</h3>
-			  <h3>{{product.age}}</h3>
-			  <h3>{{product.company}}</h3>
-			  <img ng-src="{{product.images[0].full}}"/>
-	 </div>
-	 <img ng-src="{{store.product.images[0].full}}"/>
+
 </div>
-</body>-->
+</body>
+</head>
+</html>
