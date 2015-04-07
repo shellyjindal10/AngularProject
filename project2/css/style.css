@@ -4,7 +4,11 @@ video#bgvid {
   width: auto;
   height: auto;
   background: url(../image/splitmoneyImage.jpg) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  z-index: -1000;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -56%; }
 
 body,
 html {
@@ -29,20 +33,20 @@ h6 {
   font-weight: 400; }
 
 .intro-header {
+  z-index: 20;
   padding-top: 50px;
-  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
   text-align: center;
-  color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
-  background-size: cover; }
+  color: #f8f8f8; }
 
 .intro-message {
+  z-index: 20;
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%; }
 
 .intro-message > h1 {
+  z-index: 20;
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 5em; }
@@ -53,13 +57,16 @@ h6 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
 
 .intro-message > h3 {
+  z-index: 20;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
 @media (max-width: 767px) {
   .intro-message {
+    z-index: 20;
     padding-bottom: 15%; }
 
   .intro-message > h1 {
+    z-index: 20;
     font-size: 3em; }
 
   ul.intro-social-buttons > li {
@@ -98,7 +105,7 @@ h6 {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background: url(../image/banner-bg.jpg) no-repeat center center;
   background-size: cover; }
 
 .banner h2 {
