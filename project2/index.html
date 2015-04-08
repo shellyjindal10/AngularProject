@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="store">
 <head>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.4-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -14,26 +14,26 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <title>Video HTML Page</title>
 </head>
-<body>
+<body ng-controller="StoreController as store">
 	<a name="about"></a>
-    <div class="intro-header">
+    <div class="intro-header" >
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>MoneySplit</h1>
-                        <h3>Split money among friends</h3>
+                        <h1>{{store.product.heading}}</h1>
+                        <h3>{{store.product.introduction}}</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/jinshelly" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="https://twitter.com/jinshelly" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{store.product.twitter}}</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/shellyjindal10/AngularProject/tree/master/project2" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/shellyjindal10/AngularProject/tree/master/project2" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">{{store.product.github}}</span></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">{{store.product.linkedin}}</span></a>
                             </li>
                         </ul>
                     </div>
@@ -59,19 +59,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">MoneySplit</a>
+                <a class="navbar-brand topnav" href="#">{{store.product.heading}}</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">{{store.product.about}}</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#services">{{store.product.services}}</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">{{store.product.contact}}</a>
                     </li>
                 </ul>
             </div>
@@ -95,8 +95,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Money Split<br>Provides you</h2>
-                    <p class="lead">Living with your mates? Whether it's bills, takeaway or just daily expenses, MoneySplit deals with all the hassles & calculations while you sit back and relax! You can add expenses as soon as they happen.</p>
+                    <h2 class="section-heading">{{store.product.sectionHeading1}}<br>{{store.product.sectionHeading2}}</h2>
+                    <p class="lead">{{store.product.sectionParagraph}}</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="image/ipad.png" alt="">
@@ -117,8 +117,8 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Pay Bills <br>by PayPal</h2>
-                    <p class="lead">Students & Houseshares,Group Expenses,Parties & Clubs,Camping Trips & Holidays,Gig & Theatre Tickets,Online Groceries & Shopping,Rent & Mortage Payments,Personal IOUs & more ...!</p>
+                    <h2 class="section-heading">{{store.product.paybillsHeading1}}<br>{{store.product.paybillsHeading2}}</h2>
+                    <p class="lead">{{store.product.paybillsParagraph}}</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="image/epayment.jpg" alt="">
@@ -139,8 +139,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Make more friends now</h2>
-                    <p class="lead">Forget about Excel sheets after a trip with your friends! <br>Socialize more with this super easy and fast user interface. </p>
+                    <h2 class="section-heading">{{store.product.makeFriendsHeading1}}</h2>
+                    <p class="lead">{{store.product.makeFriendsParagraph1}}<br>{{store.product.makeFriendsParagraph2}}</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <!--<img class="img-responsive" src="image/phones.png" alt="">-->
@@ -162,18 +162,18 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Connect Me</h2>
+                    <h2>{{store.product.connectMeHeading}}</h2>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="https://twitter.com/jinshelly" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            <a href="https://twitter.com/jinshelly" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{store.product.twitter}}</span></a>
                         </li>
                         <li>
-                            <a href="https://github.com/shellyjindal10/AngularProject/tree/master/project2" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="https://github.com/shellyjindal10/AngularProject/tree/master/project2" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">{{store.product.github}}</span></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">{{store.product.linkedin}}</span></a>
                         </li>
                     </ul>
                 </div>
@@ -192,22 +192,22 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#">{{store.product.home}}</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#about">{{store.product.about}}</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#services">{{store.product.services}}</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#contact">{{store.product.contact}}</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2015. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; {{store.product.copyrightTitle}}</p>
                 </div>
             </div>
         </div>
@@ -218,5 +218,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!--angular js file-->
+    <script type="text/javascript" src="js/angular.min.js"></script>
+
+    <!--App controller.js-->
+    <script type="text/javascript" src="js/app.js"></script>
 </head>
 </html>
