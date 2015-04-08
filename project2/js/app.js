@@ -25,6 +25,7 @@
 		makeFriendsParagraph1:'Forget about Excel sheets after a trip with your friends! ',
 		makeFriendsParagraph2:'Socialize more with this super easy and fast user interface.',
 		connectMeHeading:'Connect Me',
-		copyrightTitle:'Your Company 2015. All Rights Reserved'
+		copyrightTitle:'Your Company 2015. All Rights Reserved',
+		copyrightName:'Copyright'
 	}
 })();
